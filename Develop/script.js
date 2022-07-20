@@ -1,3 +1,5 @@
+window.alert("This is an alert! JavaScript is running!");
+
 //Characters code
 var lowercase = 'abcdefghijklmnopqrstuvwxyz';
 var uppercase = 'ABCDEFGHIJKLMONPQRSTUVWXYZ';
