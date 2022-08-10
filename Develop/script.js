@@ -44,7 +44,15 @@ if (specialConfirm) {
 
 console.log(allCharacters);
 
-  
+// generate password length
+function generatePassword() {
+  createPass();
+  for (let i = 1; i <= passLength; i++) {
+    let randomNumber = Math.floor(Math.random() * allCharacters.length)
+    password += allCharacters[randomNumber];
+  }
+  return password;
+}  
 
 // Assignment code here
 var generateBtn = document.querySelector("#generate");
